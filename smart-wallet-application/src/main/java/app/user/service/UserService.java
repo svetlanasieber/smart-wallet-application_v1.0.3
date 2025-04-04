@@ -42,7 +42,7 @@ public class UserService {
 
         return User.builder()
                 .username(registerRequest.getUsername())
-                .password(registerRequest.getPassword())
+                .password(passwordEncoder.encode(registerRequest.getPassword()))
 
                 .build();
     }
