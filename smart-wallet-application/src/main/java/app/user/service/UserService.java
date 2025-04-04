@@ -47,7 +47,11 @@ public class UserService {
 
         User user = userRepository.save(initializeUser(registerRequest));
 
-        return null;
+        subscriptionService.createDefaultSubscription(user);
+        walletService.createNewWallet(user);
+
+
+        return user;
     }
 
     private User initializeUser(RegisterRequest registerRequest) {
