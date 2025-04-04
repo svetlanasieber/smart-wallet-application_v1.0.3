@@ -27,11 +27,11 @@ public class UserService {
     private final WalletService walletService;
 
     @Autowired
-    public UserService(UserRepository userRepository, 
-                       PasswordEncoder passwordEncoder, 
+    public UserService(UserRepository userRepository,
+                       PasswordEncoder passwordEncoder,
                        SubscriptionService subscriptionService,
                        WalletService walletService) {
-        
+
         this.userRepository = userRepository;
         this.passwordEncoder = passwordEncoder;
         this.subscriptionService = subscriptionService;
@@ -42,7 +42,7 @@ public class UserService {
 
         Optional<User> userOptional = userRepository.findByUsername(registerRequest.getUsername());
         if (userOptional.isPresent()) {
-            throw new DomainException("Username [%s] already exist." .formatted(registerRequest.getUsername()));
+            throw new DomainException("Username [%s] already exist.".formatted(registerRequest.getUsername()));
         }
 
         User user = userRepository.save(initializeUser(registerRequest));
