@@ -8,8 +8,8 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class UserService {
-    
-    
+
+
     private final UserRepository userRepository;
 
     @Autowired
@@ -18,7 +18,6 @@ public class UserService {
     }
 
     public User register(Registration registration) {
-
 
 
         return null;
