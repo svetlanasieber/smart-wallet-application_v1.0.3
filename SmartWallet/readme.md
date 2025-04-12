@@ -1,5 +1,5 @@
 ******************************************************************************************************
-Smart Wallet - DDD - "Entities should always be in a valid state", Core Java, Value Objects and Enums,
+Smart Wallet - Simple DDD - "Entities should always be in a valid state", Core Java, Value Objects and Enums,
 Rich Domain Model, Engine, Layers (Entitie, Repositories, Services, SessionManager)
 *****************************************************************************************************
 ![image](https://github.com/user-attachments/assets/7e820e42-dd26-4875-a627-e7ef43d5fdc6)
