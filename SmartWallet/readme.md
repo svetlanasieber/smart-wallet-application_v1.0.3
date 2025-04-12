@@ -2,3 +2,14 @@
 Console-based system that manages user wallets, transactions, and session-based user activity. 
 *****************************************************************************************************
 ![image](https://github.com/user-attachments/assets/7e820e42-dd26-4875-a627-e7ef43d5fdc6)
+
+*****************************************************************************************************
+![image](https://github.com/user-attachments/assets/8f6292b8-5d8e-4775-8278-e7278ee35df3)
+*****************************************************************************************************
+![image](https://github.com/user-attachments/assets/5c9d2365-65af-418e-a4bc-f70f43fa36d3)
+*****************************************************************************************************
+![image](https://github.com/user-attachments/assets/c0e04499-ad21-4057-8372-77ae10573db2)
+*****************************************************************************************************
+![image](https://github.com/user-attachments/assets/a1e665b1-aaa6-41a0-a82e-b611b835200f)
+
+
